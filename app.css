@@ -1,0 +1,72 @@
+@media (max-width: 750px) {
+  body {
+    background-color: lightgreen;
+  }
+  /*========================== navbar section ============================*/
+  .nav {
+    flex-direction: column;
+  }
+  .left {
+    margin: 0 0 5px 0;
+  }
+  /* ====================== landing page =============================*/
+  .container {
+    margin-top: 2vh;
+  }
+  .main-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .left1 img {
+    height: 48vh;
+    border-radius: 10%;
+  }
+
+  .left1,
+  .right1 {
+    padding-left: 0px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content .text {
+    text-align: center;
+  }
+
+  /*=========================== about me  ======================*/
+  .about-box {
+    margin-top: 50vh;
+  }
+
+  .about {
+  }
+
+  .wrapper-grid {
+  }
+
+  .wrapper1 img {
+    width: 22rem;
+  }
+  /*======================= skill ===============================*/
+  .skill-title {
+    font-size: 20px;
+  }
+  .skill-percentage {
+    font-size: 15px;
+  }
+  .skill-fills {
+    padding-right: 10px;
+  }
+  .skill-area {
+    padding: 0 6%;
+  }
+  .services {
+    margin-top: 98vh;
+ }
+}
